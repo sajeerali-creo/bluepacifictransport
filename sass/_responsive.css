@@ -1,0 +1,16 @@
+/*Responsive*/
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .hide-mob {
+    display: none !important;
+  }
+  header .top-head span {
+    font-size: 9px;
+    text-align: center;
+    display: block;
+  }
+}
+
+/* Landscape phones and down */
