@@ -31,7 +31,7 @@ h1 {
 h2 {
   font-weight: 600;
   display: block;
-  padding-bottom: .5em;
+  padding-bottom: 1em;
   font-size: 20px;
   color: #5D4095;
 }
@@ -57,6 +57,9 @@ button {
   -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.2);
   margin-top: 10px;
+  a{
+    color: #fff;
+  }
 
   &:focus {
     background: #7d5fb7;

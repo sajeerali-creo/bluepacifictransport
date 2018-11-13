@@ -4,4 +4,29 @@
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
+    background-position:center;
+    .hero-content{
+    	h1{
+    		font-size: 45px;
+    		color: $white;
+    		display: block;
+    		text-align: center;
+    		padding-top: 20%;
+    	}
+    	p{
+    		color: $white;
+    		font-size: 14px;
+    		line-height: 24px;
+    		display: block;
+    		text-align: center;
+    		width: 50%;
+    		margin:0px auto;
+    	}
+    	button{
+    		margin:0px auto;
+    		display: block;
+    		margin-top: 30px;
+    	}
+    }
 }
