@@ -25,15 +25,16 @@ h1 {
   display: block;
   padding-bottom: .8em;
   font-size: 30px;
-  color: #3A265F;
+  color: #003680;
 }
 
 h2 {
   font-weight: 600;
   display: block;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   font-size: 20px;
-  color: #5D4095;
+  color: #0B7EC3;
+  font-weight: normal;
 }
 
 p {
@@ -50,7 +51,7 @@ section {
 button {
   border: none;
   min-width: 120px;
-  background: #5D4095;
+  background: #0B7EC3;
   color: #fff;
   height: 46px;
   border-radius: 3px;
@@ -62,11 +63,11 @@ button {
   }
 
   &:focus {
-    background: #7d5fb7;
+    background: #003680;
   }
 
   &:hover {
-    background: #7d5fb7;
+    background: #003680;
     cursor: pointer;
   }
 }

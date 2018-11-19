@@ -1,9 +1,10 @@
 #main-menu{
     h2{
-        color: $white;
+        color: $color2;
         text-align: right;
         padding-top: 15px;
         display: block;
+        margin-bottom: 0px!important;
     }
     ul{
         float: right;
@@ -11,7 +12,7 @@
         li{
             display: inline-block;
             a{
-                color:#c3a6fb;
+                color:$color1;
                 text-transform: uppercase;
                 font-size: 12px;
                 display: block;
@@ -21,10 +22,10 @@
                 width: 90px;
                 text-align: center;
                 &:hover{
-                    color: #fff;
+                    color: $color2;
                 }
                 &:focus{
-                    color: $white;
+                    color: $color2;
                 }
             }
         }
@@ -48,7 +49,7 @@
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #c3a6fb;
+    background: $color1;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -61,3 +62,9 @@
     left: 0;
     right: 0;
   }
+
+  .sticky {
+    position: fixed;
+    z-index: 888;
+    background: #fff;
+}
